@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full System · AP2 + ZKP Demo</title>
+<link rel="stylesheet" href="/shared/style.css">
+<script src="/shared/crypto-bundle.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <h1>System 3: Full (AP2 + ZKP)</h1>
+  <p class="sub">AP2 mandate delegation with ECDSA signatures + Bulletproofs zero-knowledge proofs for privacy-preserving floor-price verification.</p>
+
+  <div class="panel">
+    <h2>Configuration</h2>
+    <div class="row">
+      <div><label>Your Limit w</label><input id="limit" value="110" type="number"></div>
+      <div><label>Bit Length n</label><select id="n">
+        <option value="32" selected>32 (up to 2³²)</option>
+        <option value="16">16 (up to 2¹⁶)</option>
+      </select></div>
+    </div>
+    <div class="dim" style="margin-top:8px">Agent URL: <span id="agentUrl">http://localhost:3301</span></div>
+    <button id="btnRun" style="margin-top:14px">Run Full Flow (AP2 + ZKP)</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shortHex = (h, len=14) => (h && h.length > len+2) ? h.slice(0,len)+'…' : h||'';
+
+const AGENT_URL = new URLSearchParams(location.search).get('agent') || 'http://localhost:3301';
+$('agentUrl').textContent = AGENT_URL;
+
+function render(full) {
+  const pub = full.public;
+  const av = full.agentView;
+  const limit = av.limitPlain;
+  const sellers = pub.commitments.sellers;
+  let h = '';
+
+  // 1. Open Mandate (sealed)
+  h += '<div class="panel"><h2>Open Checkout Mandate (Sealed Constraint)</h2>';
+  h += `<div class="kv"><b>User Public Key</b> <code>${shortHex(full.openMandate.userPubkey, 40)}</code></div>`;
+  h += `<div class="kv"><b>Agent ECIES Pubkey</b> <code>${shortHex(pub.agentPubkey, 40)}</code></div>`;
+  h += `<div class="kv"><b>Limit Commitment W</b> <code>${shortHex(pub.commitments.limit, 36)}</code></div>`;
+  h += `<div class="dim">The limit is sealed (ECIES-encrypted to Agent) and committed (Pedersen, public). Only the Agent can decrypt.</div>`;
+  h += `<div class="kv"><b>Mandate Hash</b> <code>${shortHex(full.mandateHash, 30)}</code></div>`;
+  h += `<div class="kv"><b>User Signature</b> <code>${shortHex(full.userSignature, 30)}</code></div>`;
+  h += '</div>';
+
+  // 2. Sealed Commitments + Decryption
+  h += '<div class="panel"><h2>Seller Commitments & Decryption</h2>';
+  h += '<table><tr><th>Seller</th><th>Commitment B_i</th><th>Sealed</th><th>Decrypted Quote</th></tr>';
+  for (let i=0; i<sellers.length; i++) {
+    h += `<tr><td>#${sellers[i].i}</td><td><code>${shortHex(sellers[i].point, 36)}</code></td>`;
+    h += `<td class="dim">Sealed</td>`;
+    h += `<td><b>${av.quotesPlain[i] !== null ? av.quotesPlain[i] : '?'}</b></td></tr>`;
+  }
+  h += '</table></div>';
+
+  // 3. Decision
+  h += '<div class="panel"><h2>Agent Decision</h2>';
+  h += `<div class="kv"><b>Limit</b> w = ${limit} (decrypted by Agent, never revealed to Verifier)</div>`;
+  h += '<table><tr><th>Seller</th><th>Quote</th><th>vs ' + limit + '</th><th>Result</th></tr>';
+  for (let i = 0; i < sellers.length; i++) {
+    const q = av.quotesPlain[i];
+    const isRemoved = pub.removed.includes(i);
+    const isChosen = pub.chosen === i;
+    let status = '<span class="dim">Kept</span>';
+    if (isRemoved) status = '<span class="fail">Removed (&ge; limit)</span>';
+    if (isChosen) status = '<b class="pass">&#x2713; Selected</b>';
+    h += `<tr><td>#${i}</td><td>${q}</td>`;
+    h += `<td>${q >= limit ? '<span class="fail">'+q+' &ge; '+limit+'</span>' : q+' &lt; '+limit}</td>`;
+    h += `<td>${status}</td></tr>`;
+  }
+  h += '</table>';
+  if (full.warnings && full.warnings.length) {
+    h += '<div>'+full.warnings.map(w=>'<div class="warn">&#x26A0; '+esc(w)+'</div>').join('')+'</div>';
+  }
+  h += '</div>';
+
+  // 4. ZKP Verification
+  h += '<div class="panel"><h2>ZKP Verification (Independent Verifier)</h2>';
+  h += '<table><tr><th>Type</th><th>Statement</th><th>Verification</th><th>Size</th></tr>';
+  for (const i of pub.removed) {
+    const d = av.quotesPlain[i] - limit;
+    h += `<tr><td>Type 1</td><td>#${i}: b_${i} &minus; w &ge; 0 (diff=${d})</td>`;
+    h += `<td class="${pub.verification.removed[i] ? 'pass' : 'fail'}">${pub.verification.removed[i] ? '&#x2713; PASS' : '&#x2717; FAIL'}</td>`;
+    h += `<td>${pub.proofSizeBytes.removed[i]} B</td></tr>`;
+  }
+  if (pub.chosen !== null) {
+    for (const j of Object.keys(pub.verification.chosenVsOthers)) {
+      const d = av.quotesPlain[j] - av.quotesPlain[pub.chosen];
+      h += `<tr><td>Type 2</td><td>#${pub.chosen} vs #${j}: b_${j} &minus; b_${pub.chosen} &ge; 0 (diff=${d})</td>`;
+      h += `<td class="${pub.verification.chosenVsOthers[j] ? 'pass' : 'fail'}">${pub.verification.chosenVsOthers[j] ? '&#x2713; PASS' : '&#x2717; FAIL'}</td>`;
+      h += `<td>${pub.proofSizeBytes.chosenVsOthers[j]} B</td></tr>`;
+    }
+  }
+  h += '</table>';
+
+  h += '<div class="verdict">';
+  h += pub.verification.allPass
+    ? '<span class="pass">&#x2713; All ZKP proofs passed + mandate signatures verified</span>'
+    : '<span class="fail">&#x2717; Proof verification failed</span>';
+  h += '</div>';
+  h += `<div class="dim" style="margin-top:6px">Prove: ${pub.timingMs.prove} ms | Verify: ${pub.timingMs.verify} ms | Total: ${pub.timingMs.total} ms | Proof size: ${(pub.proofSizeBytesTotal/1024).toFixed(1)} KB</div>`;
+  h += '</div>';
+
+  // 5. Closed Mandates + Credential
+  h += '<div class="panel"><h2>Closed Mandates & Payment</h2>';
+  if (full.closedMandates) {
+    for (const [id, cm] of Object.entries(full.closedMandates)) {
+      h += `<div class="kv"><b>Seller #${id} Agent Signature</b> <code>${shortHex(cm.signature, 30)}</code></div>`;
+    }
+  }
+  h += `<div class="kv"><b>Payment Credential</b> <code>${esc(full.credential || 'N/A')}</code></div>`;
+  h += '</div>';
+
+  $('result').innerHTML = h;
+}
+
+async function run() {
+  const btn = $('btnRun');
+  btn.disabled = true;
+  btn.textContent = 'Running…';
+  $('result').innerHTML = '';
+
+  try {
+    const w = parseInt($('limit').value, 10);
+    const n = parseInt($('n').value, 10);
+    if (isNaN(w) || w <= 0) throw new Error('Invalid limit');
+
+    const pkResp = await fetch(AGENT_URL + '/pubkey');
+    const pkData = await pkResp.json();
+    if (!pkData.eciesPubkey || !pkData.signingPubkey) throw new Error('Failed to get agent pubkeys');
+
+    const userKp = ZKP.ecdsa.generateKeypair();
+    const rc = ZKP.randomCommit(w);
+    const agentPk = ZKP.hexToPoint(pkData.eciesPubkey);
+    const sealed = await ZKP.encrypt(agentPk, ZKP.openingToJson(w, rc.randomness));
+
+    const buildResp = await fetch(AGENT_URL + '/build-mandate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userPubkey: userKp.pk,
+        constraints: { sealedMaxUnitPrice: { commitment: ZKP.pointToHex(rc.point), sealed }, allowedMerchants: ['*'] }
+      })
+    });
+    const bd = await buildResp.json();
+    if (bd.error) throw new Error(bd.error);
+
+    const sig = ZKP.ecdsa.sign(bd.mandateHash, userKp.sk);
+
+    const execResp = await fetch(AGENT_URL + '/execute', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ openMandate: bd.openMandate, userSignature: sig, userPubkey: userKp.pk, n })
+    });
+    const execData = await execResp.json();
+    if (execData.error) throw new Error(execData.error);
+
+    render(execData.result);
+    btn.textContent = 'Complete';
+    btn.classList.add('btn-outline');
+  } catch (e) {
+    $('result').innerHTML = '<div class="panel err">Error: '+esc(e.message||e)+'</div>';
+    btn.disabled = false;
+    btn.textContent = 'Run Full Flow (AP2 + ZKP)';
+  }
+}
+$('btnRun').addEventListener('click', run);
+</script>
+</body>
+</html>

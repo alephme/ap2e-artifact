@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "seed": 42,
+    "reps": 3,
+    "merchants": [
+      8
+    ],
+    "nbits": 16,
+    "priceRange": [
+      10,
+      500
+    ],
+    "limitPercentile": [
+      30,
+      70
+    ]
+  },
+  "results": [
+    {
+      "m": 8,
+      "cheat": "none",
+      "n": 3,
+      "authorized": 3,
+      "failed": {}
+    },
+    {
+      "m": 8,
+      "cheat": "bid-equivocation",
+      "n": 3,
+      "authorized": 0,
+      "failed": {
+        "bid.acknowledged": 3
+      }
+    },
+    {
+      "m": 8,
+      "cheat": "offer-exclusion",
+      "n": 3,
+      "authorized": 0,
+      "failed": {
+        "payment.constraint:payment.amount_range_committed": 3,
+        "response.accounting": 3,
+        "zkp.proofs": 3
+      }
+    },
+    {
+      "m": 8,
+      "cheat": "biased-selection",
+      "n": 3,
+      "authorized": 0,
+      "failed": {
+        "zkp.optimality": 3
+      }
+    }
+  ]
+}

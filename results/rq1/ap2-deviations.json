@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "seed": 42,
+    "scenariosPerCell": 30,
+    "merchantSizes": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      192
+    ],
+    "priceRange": [
+      10,
+      500
+    ],
+    "limitPercentile": [
+      30,
+      70
+    ],
+    "implementation": "AP2 v0.2 Human Not Present over HTTP: open/closed Checkout and Payment Mandates, merchant checkout verification, CP payment verification, MPP settlement",
+    "generated": "2026-11-13T09:34:36.319Z"
+  },
+  "cells": {
+    "4": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 63.5,
+          "meanOverpay": 73.06666666666666,
+          "p95Overpay": 168,
+          "maxOverpay": 188,
+          "medianPct": 62.058933933933936,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 63.5,
+          "meanOverpay": 73.06666666666666,
+          "p95Overpay": 168,
+          "maxOverpay": 188,
+          "medianPct": 62.058933933933936,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 80.5,
+          "meanOverpay": 95.8,
+          "p95Overpay": 188,
+          "maxOverpay": 230,
+          "medianPct": 69.65616531165313,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 93.5,
+          "meanOverpay": 112.66666666666667,
+          "p95Overpay": 230,
+          "maxOverpay": 308,
+          "medianPct": 113.66368945379595,
+          "failedChecks": {}
+        }
+      }
+    },
+    "8": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 47,
+          "meanOverpay": 73.2,
+          "p95Overpay": 186,
+          "maxOverpay": 213,
+          "medianPct": 63.660985122056914,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 47,
+          "meanOverpay": 73.2,
+          "p95Overpay": 186,
+          "maxOverpay": 213,
+          "medianPct": 63.660985122056914,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 84,
+          "meanOverpay": 106.46666666666667,
+          "p95Overpay": 213,
+          "maxOverpay": 296,
+          "medianPct": 111.78929765886286,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 180,
+          "meanOverpay": 165.83333333333334,
+          "p95Overpay": 265,
+          "maxOverpay": 381,
+          "medianPct": 231.74103737604884,
+          "failedChecks": {}
+        }
+      }
+    },
+    "16": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 26,
+          "meanOverpay": 37.6,
+          "p95Overpay": 82,
+          "maxOverpay": 127,
+          "medianPct": 75.53763440860214,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 26,
+          "meanOverpay": 37.6,
+          "p95Overpay": 82,
+          "maxOverpay": 127,
+          "medianPct": 75.53763440860214,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 101.5,
+          "meanOverpay": 115.53333333333333,
+          "p95Overpay": 236,
+          "maxOverpay": 260,
+          "medianPct": 281.86813186813185,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 197.5,
+          "meanOverpay": 204.26666666666668,
+          "p95Overpay": 328,
+          "maxOverpay": 418,
+          "medianPct": 588.0769230769231,
+          "failedChecks": {}
+        }
+      }
+    },
+    "32": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 7.5,
+          "meanOverpay": 13.7,
+          "p95Overpay": 31,
+          "maxOverpay": 55,
+          "medianPct": 39.827586206896555,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 7.5,
+          "meanOverpay": 13.7,
+          "p95Overpay": 31,
+          "maxOverpay": 55,
+          "medianPct": 39.827586206896555,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 100.5,
+          "meanOverpay": 111.8,
+          "p95Overpay": 215,
+          "maxOverpay": 265,
+          "medianPct": 444.00921658986175,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 215.5,
+          "meanOverpay": 217.5,
+          "p95Overpay": 344,
+          "maxOverpay": 386,
+          "medianPct": 887.8105590062112,
+          "failedChecks": {}
+        }
+      }
+    },
+    "64": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 6,
+          "meanOverpay": 8.4,
+          "p95Overpay": 19,
+          "maxOverpay": 35,
+          "medianPct": 21.455938697318008,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 6,
+          "meanOverpay": 8.4,
+          "p95Overpay": 19,
+          "maxOverpay": 35,
+          "medianPct": 21.455938697318008,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 127,
+          "meanOverpay": 142.33333333333334,
+          "p95Overpay": 272,
+          "maxOverpay": 294,
+          "medianPct": 775.4135338345865,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 224,
+          "meanOverpay": 224.3,
+          "p95Overpay": 324,
+          "maxOverpay": 342,
+          "medianPct": 1323.3333333333335,
+          "failedChecks": {}
+        }
+      }
+    },
+    "128": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 2,
+          "meanOverpay": 2.033333333333333,
+          "p95Overpay": 4,
+          "maxOverpay": 10,
+          "medianPct": 15.384615384615385,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 2,
+          "meanOverpay": 2.033333333333333,
+          "p95Overpay": 4,
+          "maxOverpay": 10,
+          "medianPct": 15.384615384615385,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 118,
+          "meanOverpay": 114.9,
+          "p95Overpay": 222,
+          "maxOverpay": 246,
+          "medianPct": 903.5714285714286,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 230.5,
+          "meanOverpay": 232.5,
+          "p95Overpay": 302,
+          "maxOverpay": 353,
+          "medianPct": 1788.3333333333335,
+          "failedChecks": {}
+        }
+      }
+    },
+    "192": {
+      "scenarios": 30,
+      "attacks": {
+        "none": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 0,
+          "meanOverpay": 0,
+          "p95Overpay": 0,
+          "maxOverpay": 0,
+          "medianPct": 0,
+          "failedChecks": {}
+        },
+        "discriminatory-bid": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 1,
+          "meanOverpay": 2.6,
+          "p95Overpay": 8,
+          "maxOverpay": 8,
+          "medianPct": 10,
+          "failedChecks": {}
+        },
+        "comparison-manipulation": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 1,
+          "meanOverpay": 2.6,
+          "p95Overpay": 8,
+          "maxOverpay": 8,
+          "medianPct": 10,
+          "failedChecks": {}
+        },
+        "suboptimal-selection": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 155,
+          "meanOverpay": 150.1,
+          "p95Overpay": 247,
+          "maxOverpay": 312,
+          "medianPct": 1439.5454545454545,
+          "failedChecks": {}
+        },
+        "upper-bound": {
+          "n": 30,
+          "noPurchase": 0,
+          "authorizedRate": 1,
+          "medianOverpay": 245,
+          "meanOverpay": 235.23333333333332,
+          "p95Overpay": 319,
+          "maxOverpay": 322,
+          "medianPct": 2041.9871794871797,
+          "failedChecks": {}
+        }
+      }
+    }
+  }
+}

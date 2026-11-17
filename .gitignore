@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Benchmark output (regenerable data files)
+benchmark-results*.json
+benchmark-comparison.json
+
+# Backups and temporary output
+backup/
+*.bak
+output.txt
+
+# Reference papers (external material)
+ref-paper/
+
+# Intermediate benchmark output (regenerable)
+results/benchmark.json
+
+# Manuscript sources: kept out of the artifact repository
+paper/

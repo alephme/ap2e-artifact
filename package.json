@@ -1,0 +1,30 @@
+{
+  "name": "zkp-demo",
+  "version": "0.1.0",
+  "description": "Bulletproofs 密封竞标购物 ZKP demo：agent 在不泄露买家上限与商家报价的前提下证明自身诚实",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "build:browser": "node scripts/build-browser.js",
+    "start:ap2-only": "node src/systems/ap2-only/launcher.js",
+    "start:full": "node src/systems/full/launcher.js",
+    "start:all": "node scripts/launch-all.js",
+    "benchmark": "node scripts/benchmark.js",
+    "benchmark:csv": "node scripts/benchmark.js --csv"
+  },
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "elliptic": "^6.5.4",
+    "js-sha3": "^0.9.0",
+    "koffi": "^3.1.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1",
+    "web3-eth-abi": "^1.7.5",
+    "web3-utils": "^1.7.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

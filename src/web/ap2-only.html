@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP2-Only · Mandate Trust Demo</title>
+<link rel="stylesheet" href="/shared/style.css">
+<script src="/shared/crypto-bundle.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <h1>System 2: AP2-Only (Trust-Based)</h1>
+  <p class="sub">AP2 mandate delegation flow with ECDSA signatures — no zero-knowledge proofs. The user trusts the agent to respect the limit.</p>
+
+  <div class="panel">
+    <h2>Configuration</h2>
+    <div class="row">
+      <div><label>Your Limit (maxUnitPrice)</label><input id="limit" value="110" type="number"></div>
+      <div><label>Merchant List</label><input id="merchants" value="*" placeholder="* = all"></div>
+    </div>
+    <div class="dim" style="margin-top:8px">Agent URL: <span id="agentUrl">http://localhost:3201</span></div>
+    <button id="btnRun" style="margin-top:14px">Run AP2-Only Flow</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shortHex = (h, len=20) => (h && h.length > len+2) ? h.slice(0,len)+'…' : h||'';
+
+const AGENT_URL = new URLSearchParams(location.search).get('agent') || 'http://localhost:3201';
+$('agentUrl').textContent = AGENT_URL;
+
+function render(full) {
+  const r = full;
+  let h = '';
+
+  // Open Mandate
+  h += '<div class="panel"><h2>Open Checkout Mandate</h2>';
+  h += `<div class="kv"><b>User Public Key</b> <code>${shortHex(r.openMandate.userPubkey, 40)}</code></div>`;
+  h += `<div class="kv"><b>Agent Public Key</b> <code>${shortHex(r.openMandate.agentPubkey, 40)}</code></div>`;
+  h += `<div class="kv"><b>Constraint: maxUnitPrice</b> <b>${r.openMandate.constraints.maxUnitPrice}</b></div>`;
+  h += `<div class="kv"><b>Mandate Hash</b> <code>${shortHex(r.mandateHash, 30)}</code></div>`;
+  h += `<div class="kv"><b>User Signature (DER)</b> <code>${shortHex(r.userSignature, 30)}</code></div>`;
+  h += `<div class="dim">Signed by the Trusted Surface after user consent.</div>`;
+  h += '</div>';
+
+  // Decision
+  h += '<div class="panel"><h2>Agent Decision</h2>';
+  h += `<div class="kv"><b>Limit</b> maxUnitPrice = ${r.limit}</div>`;
+  h += '<table><tr><th>Seller</th><th>Quote</th><th>vs ' + r.limit + '</th><th>Result</th></tr>';
+  for (const q of r.quotes) {
+    const isRemoved = r.removed.includes(q.id);
+    const isChosen = r.chosen === q.id;
+    let status = '<span class="dim">Kept</span>';
+    if (isRemoved) status = '<span class="fail">Removed (&ge; limit)</span>';
+    if (isChosen) status = '<b class="pass">&#x2713; Selected</b>';
+    const cmp = q.quote >= r.limit ? '<span class="fail">'+q.quote+' &ge; '+r.limit+'</span>' : q.quote + ' &lt; ' + r.limit;
+    h += '<tr><td>#'+q.id+'</td><td>'+q.quote+'</td><td>'+cmp+'</td><td>'+status+'</td></tr>';
+  }
+  h += '</table>';
+  if (r.warnings && r.warnings.length) {
+    h += '<div style="margin-top:8px">'+r.warnings.map(w=>'<div class="warn">&#x26A0; '+esc(w)+'</div>').join('')+'</div>';
+  }
+  h += '</div>';
+
+  // Closed Mandates + Credential
+  h += '<div class="panel"><h2>Closed Mandates & Payment</h2>';
+  if (r.closedMandates) {
+    for (const [id, cm] of Object.entries(r.closedMandates)) {
+      h += `<div class="kv"><b>Seller #${id} Checkout</b> ${esc(JSON.stringify(cm.mandate.checkoutRef))}</div>`;
+      h += `<div class="kv" style="margin-left:16px"><b>Agent Signature</b> <code>${shortHex(cm.signature, 30)}</code></div>`;
+    }
+  }
+  h += `<div class="kv"><b>Payment Credential</b> <code>${esc(r.credential || 'N/A')}</code></div>`;
+  h += '</div>';
+
+  // Result
+  h += '<div class="panel"><h2>Result</h2>';
+  h += '<div class="verdict"><span class="pass">&#x2713; Agent decision accepted based on mandate delegation</span></div>';
+  h += `<div class="dim">No cryptographic proof of floor-price compliance — trust model. End-to-end: ${r.timingMs.total} ms.</div>`;
+  h += '</div>';
+
+  $('result').innerHTML = h;
+}
+
+async function run() {
+  const btn = $('btnRun');
+  btn.disabled = true;
+  btn.textContent = 'Running…';
+  $('result').innerHTML = '';
+
+  try {
+    const limit = parseInt($('limit').value, 10);
+    if (isNaN(limit) || limit <= 0) throw new Error('Invalid limit');
+
+    const pkResp = await fetch(AGENT_URL + '/pubkey');
+    const pkData = await pkResp.json();
+
+    const userKp = ZKP.ecdsa.generateKeypair();
+
+    const buildResp = await fetch(AGENT_URL + '/build-mandate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userPubkey: userKp.pk, constraints: { maxUnitPrice: limit, allowedMerchants: ['*'] } })
+    });
+    const buildData = await buildResp.json();
+    if (buildData.error) throw new Error(buildData.error);
+
+    const sig = ZKP.ecdsa.sign(buildData.mandateHash, userKp.sk);
+
+    const execResp = await fetch(AGENT_URL + '/execute', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ openMandate: buildData.openMandate, userSignature: sig, userPubkey: userKp.pk })
+    });
+    const execData = await execResp.json();
+    if (execData.error) throw new Error(execData.error);
+
+    render(execData.result);
+    btn.textContent = 'Complete';
+    btn.classList.add('btn-outline');
+  } catch (e) {
+    $('result').innerHTML = '<div class="panel err">Error: '+esc(e.message||e)+'</div>';
+    btn.disabled = false;
+    btn.textContent = 'Run AP2-Only Flow';
+  }
+}
+$('btnRun').addEventListener('click', run);
+</script>
+</body>
+</html>

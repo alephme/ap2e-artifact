@@ -1,0 +1,10153 @@
+{
+ "meta": {
+  "description": "Evidence size of AP2 and AP2-E per run: proof counts and the bytes of the submitted evidence. Times are recorded separately in phase-time.json.",
+  "source": "results/phase-time.json",
+  "seed": 100,
+  "groupsPerCell": 30,
+  "cells": [
+   {
+    "merchants": 4,
+    "bits": 16
+   },
+   {
+    "merchants": 4,
+    "bits": 32
+   },
+   {
+    "merchants": 8,
+    "bits": 16
+   },
+   {
+    "merchants": 8,
+    "bits": 32
+   },
+   {
+    "merchants": 16,
+    "bits": 16
+   },
+   {
+    "merchants": 16,
+    "bits": 32
+   },
+   {
+    "merchants": 32,
+    "bits": 16
+   },
+   {
+    "merchants": 32,
+    "bits": 32
+   },
+   {
+    "merchants": 64,
+    "bits": 16
+   },
+   {
+    "merchants": 64,
+    "bits": 32
+   },
+   {
+    "merchants": 128,
+    "bits": 16
+   },
+   {
+    "merchants": 128,
+    "bits": 32
+   },
+   {
+    "merchants": 192,
+    "bits": 16
+   },
+   {
+    "merchants": 192,
+    "bits": 32
+   }
+  ],
+  "units": {
+   "counts": "number of proofs or signatures",
+   "bytes": "bytes; range proofs at their binary size (546 B at l=16, 610 B at l=32), each consistency argument 96 B, each signature 86 B; transport encoding excluded"
+  },
+  "generated": "2026-11-17T07:36:31.172Z"
+ },
+ "runs": [
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7098,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6006,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4835
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7098,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6006,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7098,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7098,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7098,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6006,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6006,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6552,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4835
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 16,
+   "scenario": "M4_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6006,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7930,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6710,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4835
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7930,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6710,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7930,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7930,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 1,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7930,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6710,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6710,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 2,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 7320,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4835
+    }
+   }
+  },
+  {
+   "merchants": 4,
+   "bits": 32,
+   "scenario": "M4_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 8,
+     "infeasible": 3,
+     "feasible": 0,
+     "optimality": 0,
+     "consistency": 3
+    },
+    "bytes": {
+     "proofs": 6710,
+     "consistency": 1543,
+     "signatures": 344,
+     "mandates": 4838
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13104,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 2,
+     "feasible": 5,
+     "optimality": 5,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15288,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13104,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5551
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13104,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13104,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 13650,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14196,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5551
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 16,
+   "scenario": "M8_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14742,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14640,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 2,
+     "feasible": 5,
+     "optimality": 5,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 17080,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14640,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5551
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14640,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5552
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 6,
+     "feasible": 1,
+     "optimality": 1,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 14640,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 5,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15250,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 4,
+     "feasible": 3,
+     "optimality": 3,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 15860,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5550
+    }
+   }
+  },
+  {
+   "merchants": 8,
+   "bits": 32,
+   "scenario": "M8_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 16,
+     "infeasible": 3,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 7
+    },
+    "bytes": {
+     "proofs": 16470,
+     "consistency": 3599,
+     "signatures": 344,
+     "mandates": 5553
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 28938,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31122,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 6,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30576,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 10,
+     "feasible": 5,
+     "optimality": 5,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 28392,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7039
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 28938,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 6,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30576,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7026
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 28938,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7041
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 13,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 26754,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31122,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31122,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 4,
+     "feasible": 11,
+     "optimality": 11,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31668,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31122,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 8,
+     "feasible": 7,
+     "optimality": 7,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 29484,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7038
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 30030,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 16,
+   "scenario": "M16_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 27846,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 32330,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7041
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34770,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7041
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 6,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34160,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 10,
+     "feasible": 5,
+     "optimality": 5,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31720,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7039
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 32330,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 6,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34160,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7026
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7041
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 9,
+     "feasible": 6,
+     "optimality": 6,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 32330,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 13,
+     "feasible": 2,
+     "optimality": 2,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 29890,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34770,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34770,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 4,
+     "feasible": 11,
+     "optimality": 11,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 35380,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 5,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 34770,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7029
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 8,
+     "feasible": 7,
+     "optimality": 7,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 32940,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7038
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 7,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 33550,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7030
+    }
+   }
+  },
+  {
+   "merchants": 16,
+   "bits": 32,
+   "scenario": "M16_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 32,
+     "infeasible": 11,
+     "feasible": 4,
+     "optimality": 4,
+     "consistency": 15
+    },
+    "bytes": {
+     "proofs": 31110,
+     "consistency": 7717,
+     "signatures": 344,
+     "mandates": 7042
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 21,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 57330,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 17,
+     "feasible": 14,
+     "optimality": 14,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 59514,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 60060,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 60060,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 14,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61152,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 23,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 56238,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 62244,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 14,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61152,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 19,
+     "feasible": 12,
+     "optimality": 12,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 58422,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 58968,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 60060,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 62244,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 9,
+     "feasible": 22,
+     "optimality": 22,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 63882,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 8,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 64428,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 58968,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 22,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 56784,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 62244,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 20,
+     "feasible": 11,
+     "optimality": 11,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 57876,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 58968,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 61698,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 15,
+     "feasible": 16,
+     "optimality": 16,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 60606,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 10,
+     "feasible": 21,
+     "optimality": 21,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 63336,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 16,
+   "scenario": "M32_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 19,
+     "feasible": 12,
+     "optimality": 12,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 58422,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 21,
+     "feasible": 10,
+     "optimality": 10,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 64050,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 17,
+     "feasible": 14,
+     "optimality": 14,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 66490,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 67100,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 67100,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 14,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68320,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 23,
+     "feasible": 8,
+     "optimality": 8,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 62830,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 69540,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 14,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68320,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 19,
+     "feasible": 12,
+     "optimality": 12,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 65270,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 65880,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 16,
+     "feasible": 15,
+     "optimality": 15,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 67100,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 69540,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10028
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 9,
+     "feasible": 22,
+     "optimality": 22,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 71370,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 8,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 71980,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 65880,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 22,
+     "feasible": 9,
+     "optimality": 9,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 63440,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 12,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 69540,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 20,
+     "feasible": 11,
+     "optimality": 11,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 64660,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 18,
+     "feasible": 13,
+     "optimality": 13,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 65880,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10029
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 13,
+     "feasible": 18,
+     "optimality": 18,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 68930,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 15,
+     "feasible": 16,
+     "optimality": 16,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 67710,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 10,
+     "feasible": 21,
+     "optimality": 21,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 70760,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10017
+    }
+   }
+  },
+  {
+   "merchants": 32,
+   "bits": 32,
+   "scenario": "M32_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 64,
+     "infeasible": 19,
+     "feasible": 12,
+     "optimality": 12,
+     "consistency": 31
+    },
+    "bytes": {
+     "proofs": 65270,
+     "consistency": 15957,
+     "signatures": 344,
+     "mandates": 10016
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 125034,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 32,
+     "feasible": 31,
+     "optimality": 31,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 121212,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 44,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 114660,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 21,
+     "feasible": 42,
+     "optimality": 42,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 127218,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 40,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 116844,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 19,
+     "feasible": 44,
+     "optimality": 44,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 128310,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 35,
+     "feasible": 28,
+     "optimality": 28,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 119574,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 22,
+     "feasible": 41,
+     "optimality": 41,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 126672,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 46,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 113568,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 29,
+     "feasible": 34,
+     "optimality": 34,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 122850,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 115206,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 115206,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 125034,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 27,
+     "feasible": 36,
+     "optimality": 36,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 123942,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 30,
+     "feasible": 33,
+     "optimality": 33,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 122304,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 20,
+     "feasible": 43,
+     "optimality": 43,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 127764,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 15990
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 125034,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 31,
+     "feasible": 32,
+     "optimality": 32,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 121758,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 23,
+     "feasible": 40,
+     "optimality": 40,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 126126,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 26,
+     "feasible": 37,
+     "optimality": 37,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 124488,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 41,
+     "feasible": 22,
+     "optimality": 22,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 116298,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 40,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 116844,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 115206,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 39,
+     "feasible": 24,
+     "optimality": 24,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 117390,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 37,
+     "feasible": 26,
+     "optimality": 26,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 118482,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 42,
+     "feasible": 21,
+     "optimality": 21,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 115752,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 36,
+     "feasible": 27,
+     "optimality": 27,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 119028,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 29,
+     "feasible": 34,
+     "optimality": 34,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 122850,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 35,
+     "feasible": 28,
+     "optimality": 28,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 119574,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 16,
+   "scenario": "M64_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 28,
+     "feasible": 35,
+     "optimality": 35,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 123396,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 139690,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 32,
+     "feasible": 31,
+     "optimality": 31,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 135420,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 44,
+     "feasible": 19,
+     "optimality": 19,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 128100,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 21,
+     "feasible": 42,
+     "optimality": 42,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 142130,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 40,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 130540,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 19,
+     "feasible": 44,
+     "optimality": 44,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 143350,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 35,
+     "feasible": 28,
+     "optimality": 28,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 133590,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 22,
+     "feasible": 41,
+     "optimality": 41,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 141520,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 46,
+     "feasible": 17,
+     "optimality": 17,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 126880,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 29,
+     "feasible": 34,
+     "optimality": 34,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 137250,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 128710,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 128710,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 139690,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 27,
+     "feasible": 36,
+     "optimality": 36,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 138470,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 30,
+     "feasible": 33,
+     "optimality": 33,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 136640,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 20,
+     "feasible": 43,
+     "optimality": 43,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 142740,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 15990
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 25,
+     "feasible": 38,
+     "optimality": 38,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 139690,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 31,
+     "feasible": 32,
+     "optimality": 32,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 136030,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 23,
+     "feasible": 40,
+     "optimality": 40,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 140910,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 26,
+     "feasible": 37,
+     "optimality": 37,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 139080,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 41,
+     "feasible": 22,
+     "optimality": 22,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 129930,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 40,
+     "feasible": 23,
+     "optimality": 23,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 130540,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 43,
+     "feasible": 20,
+     "optimality": 20,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 128710,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 39,
+     "feasible": 24,
+     "optimality": 24,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 131150,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 37,
+     "feasible": 26,
+     "optimality": 26,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 132370,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16001
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 42,
+     "feasible": 21,
+     "optimality": 21,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 129320,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 36,
+     "feasible": 27,
+     "optimality": 27,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 132980,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 29,
+     "feasible": 34,
+     "optimality": 34,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 137250,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 35,
+     "feasible": 28,
+     "optimality": 28,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 133590,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 64,
+   "bits": 32,
+   "scenario": "M64_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 128,
+     "infeasible": 28,
+     "feasible": 35,
+     "optimality": 35,
+     "consistency": 63
+    },
+    "bytes": {
+     "proofs": 137860,
+     "consistency": 32437,
+     "signatures": 344,
+     "mandates": 16002
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 256074,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 48,
+     "feasible": 79,
+     "optimality": 79,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 252252,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 73,
+     "feasible": 54,
+     "optimality": 54,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 238602,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28183
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 74,
+     "feasible": 53,
+     "optimality": 53,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 238056,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28183
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 49,
+     "feasible": 78,
+     "optimality": 78,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 251706,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 88,
+     "feasible": 39,
+     "optimality": 39,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 230412,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28161
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 40,
+     "feasible": 87,
+     "optimality": 87,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 256620,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28182
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 81,
+     "feasible": 46,
+     "optimality": 46,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 234234,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 48,
+     "feasible": 79,
+     "optimality": 79,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 252252,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 62,
+     "feasible": 65,
+     "optimality": 65,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 244608,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 49,
+     "feasible": 78,
+     "optimality": 78,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 251706,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 67,
+     "feasible": 60,
+     "optimality": 60,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 241878,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 43,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 254982,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 62,
+     "feasible": 65,
+     "optimality": 65,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 244608,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 43,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 254982,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 72,
+     "feasible": 55,
+     "optimality": 55,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 239148,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 83,
+     "feasible": 44,
+     "optimality": 44,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 233142,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28161
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 69,
+     "feasible": 58,
+     "optimality": 58,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 240786,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 57,
+     "feasible": 70,
+     "optimality": 70,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 247338,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 80,
+     "feasible": 47,
+     "optimality": 47,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 234780,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 256074,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 56,
+     "feasible": 71,
+     "optimality": 71,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 247884,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 78,
+     "feasible": 49,
+     "optimality": 49,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 235872,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 59,
+     "feasible": 68,
+     "optimality": 68,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 246246,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 256074,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 53,
+     "feasible": 74,
+     "optimality": 74,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 249522,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 61,
+     "feasible": 66,
+     "optimality": 66,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 245154,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 44,
+     "feasible": 83,
+     "optimality": 83,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 254436,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 68,
+     "feasible": 59,
+     "optimality": 59,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 241332,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 16,
+   "scenario": "M128_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 54,
+     "feasible": 73,
+     "optimality": 73,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 248976,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 286090,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 48,
+     "feasible": 79,
+     "optimality": 79,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 281820,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 73,
+     "feasible": 54,
+     "optimality": 54,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 266570,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28182
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 74,
+     "feasible": 53,
+     "optimality": 53,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 265960,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28182
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 49,
+     "feasible": 78,
+     "optimality": 78,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 281210,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 88,
+     "feasible": 39,
+     "optimality": 39,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 257420,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28160
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 40,
+     "feasible": 87,
+     "optimality": 87,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 286700,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28183
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 81,
+     "feasible": 46,
+     "optimality": 46,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 261690,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 48,
+     "feasible": 79,
+     "optimality": 79,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 281820,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 62,
+     "feasible": 65,
+     "optimality": 65,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 273280,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 49,
+     "feasible": 78,
+     "optimality": 78,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 281210,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 67,
+     "feasible": 60,
+     "optimality": 60,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 270230,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 43,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 284870,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 62,
+     "feasible": 65,
+     "optimality": 65,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 273280,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 43,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 284870,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 72,
+     "feasible": 55,
+     "optimality": 55,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 267180,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 83,
+     "feasible": 44,
+     "optimality": 44,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 260470,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28160
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 69,
+     "feasible": 58,
+     "optimality": 58,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 269010,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 57,
+     "feasible": 70,
+     "optimality": 70,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 276330,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 80,
+     "feasible": 47,
+     "optimality": 47,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 262300,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 286090,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 56,
+     "feasible": 71,
+     "optimality": 71,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 276940,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 78,
+     "feasible": 49,
+     "optimality": 49,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 263520,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 59,
+     "feasible": 68,
+     "optimality": 68,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 275110,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 41,
+     "feasible": 86,
+     "optimality": 86,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 286090,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 53,
+     "feasible": 74,
+     "optimality": 74,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 278770,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 61,
+     "feasible": 66,
+     "optimality": 66,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 273890,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 44,
+     "feasible": 83,
+     "optimality": 83,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 284260,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28173
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 68,
+     "feasible": 59,
+     "optimality": 59,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 269620,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 128,
+   "bits": 32,
+   "scenario": "M128_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 256,
+     "infeasible": 54,
+     "feasible": 73,
+     "optimality": 73,
+     "consistency": 127
+    },
+    "bytes": {
+     "proofs": 278160,
+     "consistency": 65425,
+     "signatures": 344,
+     "mandates": 28172
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 109,
+     "feasible": 82,
+     "optimality": 82,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 358722,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 97,
+     "feasible": 94,
+     "optimality": 94,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 365274,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 124,
+     "feasible": 67,
+     "optimality": 67,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 350532,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 118,
+     "feasible": 73,
+     "optimality": 73,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 353808,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 107,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 359814,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 83,
+     "feasible": 108,
+     "optimality": 108,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 372918,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 57,
+     "feasible": 134,
+     "optimality": 134,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 387114,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 70,
+     "feasible": 121,
+     "optimality": 121,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 380016,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 72,
+     "feasible": 119,
+     "optimality": 119,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 378924,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 124,
+     "feasible": 67,
+     "optimality": 67,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 350532,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 127,
+     "feasible": 64,
+     "optimality": 64,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 348894,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 116,
+     "feasible": 75,
+     "optimality": 75,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 354900,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 84,
+     "feasible": 107,
+     "optimality": 107,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 372372,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 64,
+     "feasible": 127,
+     "optimality": 127,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 383292,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 67,
+     "feasible": 124,
+     "optimality": 124,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 381654,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 102,
+     "feasible": 89,
+     "optimality": 89,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 362544,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 131,
+     "feasible": 60,
+     "optimality": 60,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 346710,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 100,
+     "feasible": 91,
+     "optimality": 91,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 363636,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 110,
+     "feasible": 81,
+     "optimality": 81,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 358176,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 88,
+     "feasible": 103,
+     "optimality": 103,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 370188,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 83,
+     "feasible": 108,
+     "optimality": 108,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 372918,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 102,
+     "feasible": 89,
+     "optimality": 89,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 362544,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 136,
+     "feasible": 55,
+     "optimality": 55,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 343980,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 68,
+     "feasible": 123,
+     "optimality": 123,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 381108,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 88,
+     "feasible": 103,
+     "optimality": 103,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 370188,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 75,
+     "feasible": 116,
+     "optimality": 116,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 377286,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 120,
+     "feasible": 71,
+     "optimality": 71,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 352716,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 89,
+     "feasible": 102,
+     "optimality": 102,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 369642,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 76,
+     "feasible": 115,
+     "optimality": 115,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 376740,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 16,
+   "scenario": "M192_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 57,
+     "feasible": 134,
+     "optimality": 134,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 387114,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g0",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 109,
+     "feasible": 82,
+     "optimality": 82,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 400770,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g1",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 97,
+     "feasible": 94,
+     "optimality": 94,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 408090,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g2",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 124,
+     "feasible": 67,
+     "optimality": 67,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 391620,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g3",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 118,
+     "feasible": 73,
+     "optimality": 73,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 395280,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g4",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 107,
+     "feasible": 84,
+     "optimality": 84,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 401990,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g5",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 83,
+     "feasible": 108,
+     "optimality": 108,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 416630,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g6",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 57,
+     "feasible": 134,
+     "optimality": 134,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 432490,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g7",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 70,
+     "feasible": 121,
+     "optimality": 121,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 424560,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g8",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 72,
+     "feasible": 119,
+     "optimality": 119,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 423340,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g9",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 124,
+     "feasible": 67,
+     "optimality": 67,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 391620,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g10",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 127,
+     "feasible": 64,
+     "optimality": 64,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 389790,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g11",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 116,
+     "feasible": 75,
+     "optimality": 75,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 396500,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g12",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 84,
+     "feasible": 107,
+     "optimality": 107,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 416020,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g13",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 64,
+     "feasible": 127,
+     "optimality": 127,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 428220,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g14",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 67,
+     "feasible": 124,
+     "optimality": 124,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 426390,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g15",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 102,
+     "feasible": 89,
+     "optimality": 89,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 405040,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g16",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 131,
+     "feasible": 60,
+     "optimality": 60,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 387350,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g17",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 100,
+     "feasible": 91,
+     "optimality": 91,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 406260,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40620
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g18",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 110,
+     "feasible": 81,
+     "optimality": 81,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 400160,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g19",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 88,
+     "feasible": 103,
+     "optimality": 103,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 413580,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g20",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 83,
+     "feasible": 108,
+     "optimality": 108,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 416630,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40631
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g21",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 102,
+     "feasible": 89,
+     "optimality": 89,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 405040,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g22",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 136,
+     "feasible": 55,
+     "optimality": 55,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 384300,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g23",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 68,
+     "feasible": 123,
+     "optimality": 123,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 425780,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40619
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g24",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 88,
+     "feasible": 103,
+     "optimality": 103,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 413580,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g25",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 75,
+     "feasible": 116,
+     "optimality": 116,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 421510,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40632
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g26",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 120,
+     "feasible": 71,
+     "optimality": 71,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 394060,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g27",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 89,
+     "feasible": 102,
+     "optimality": 102,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 412970,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g28",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 76,
+     "feasible": 115,
+     "optimality": 115,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 420900,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40641
+    }
+   }
+  },
+  {
+   "merchants": 192,
+   "bits": 32,
+   "scenario": "M192_g29",
+   "ap2": {
+    "signatures": 4,
+    "bytes": null
+   },
+   "ap2e": {
+    "counts": {
+     "priceValidity": 384,
+     "infeasible": 57,
+     "feasible": 134,
+     "optimality": 134,
+     "consistency": 191
+    },
+    "bytes": {
+     "proofs": 432490,
+     "consistency": 98449,
+     "signatures": 344,
+     "mandates": 40642
+    }
+   }
+  }
+ ]
+}

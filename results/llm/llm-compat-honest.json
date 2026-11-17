@@ -1,0 +1,83 @@
+{
+  "scenario": {
+    "quotes": [
+      133,
+      53,
+      293,
+      119,
+      194,
+      22
+    ],
+    "limit": 115
+  },
+  "results": [
+    {
+      "model": "deepseek-v4.1-flash",
+      "nMerchants": 6,
+      "limit": 115,
+      "phase": "protocol",
+      "reply": "{\"rule\":\"cheapest\"}",
+      "strategy": {
+        "rule": "cheapest"
+      },
+      "parseOk": true,
+      "authorized": true,
+      "error": null,
+      "decision": 5,
+      "verifierFailures": [],
+      "cpOk": true,
+      "mppOk": true
+    },
+    {
+      "model": "glm-5.3-flash",
+      "nMerchants": 6,
+      "limit": 115,
+      "phase": "protocol",
+      "reply": "{\"rule\":\"cheapest\"}",
+      "strategy": {
+        "rule": "cheapest"
+      },
+      "parseOk": true,
+      "authorized": true,
+      "error": null,
+      "decision": 5,
+      "verifierFailures": [],
+      "cpOk": true,
+      "mppOk": true
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "nMerchants": 6,
+      "limit": 115,
+      "phase": "protocol",
+      "reply": "{\"rule\":\"cheapest\"}",
+      "strategy": {
+        "rule": "cheapest"
+      },
+      "parseOk": true,
+      "authorized": true,
+      "error": null,
+      "decision": 5,
+      "verifierFailures": [],
+      "cpOk": true,
+      "mppOk": true
+    },
+    {
+      "model": "gpt-6-luna",
+      "nMerchants": 6,
+      "limit": 115,
+      "phase": "protocol",
+      "reply": "{\"rule\":\"cheapest\"}",
+      "strategy": {
+        "rule": "cheapest"
+      },
+      "parseOk": true,
+      "authorized": true,
+      "error": null,
+      "decision": 5,
+      "verifierFailures": [],
+      "cpOk": true,
+      "mppOk": true
+    }
+  ]
+}
